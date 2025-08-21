@@ -61,7 +61,7 @@ Installation
 
 Clone the repository
 
-git clone https://github.com/yourusername/realfy-posture-app.git
+git clone https://github.com/Alaukik1210/Realfy-posture-detection-application
 cd realfy-posture-app
 
 
