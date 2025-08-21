@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Realfy – AI-Powered Posture Detection App
+🎯 Advanced AI-powered posture analysis for better health and performance
 
-## Getting Started
+Real-time feedback • Injury prevention • Progress tracking • Works offline
 
-First, run the development server:
+✨ Features
+🔎 Advanced Posture Analysis
 
-```bash
+Real-time AI analysis with medical-grade accuracy
+
+Biomechanical scoring system (0–100 scale)
+
+Detailed metrics for neck angle, back curvature, and alignment
+
+Smart recommendations with actionable feedback
+
+🏋️ Dual Analysis Modes
+
+Squat Analysis: Knee tracking, depth optimization, injury prevention
+
+Desk Sitting: Forward head posture, spinal alignment, ergonomic tips
+
+📊 Comprehensive Tracking
+
+Session statistics with performance metrics
+
+Progress visualization and trend analysis
+
+Export capabilities (JSON format)
+
+Local storage backup (works offline)
+
+🎥 Flexible Input Methods
+
+Live webcam analysis for real-time feedback
+
+Video upload analysis for detailed review
+
+Frame-by-frame breakdown with timeline visualization
+
+🔐 Authentication & Storage
+
+Optional Supabase integration for cloud storage
+
+Local storage fallback – works without setup
+
+User profiles and session history
+
+Privacy-focused: your data stays secure
+
+🚀 Quick Start
+Prerequisites
+
+Node.js 18+
+
+npm or yarn
+
+Modern web browser with camera access
+
+Installation
+
+Clone the repository
+
+git clone https://github.com/yourusername/realfy-posture-app.git
+cd realfy-posture-app
+
+
+Install dependencies
+
+npm install
+# or
+yarn install
+
+
+Start the development server
+
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open your browser
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+http://localhost:3000
