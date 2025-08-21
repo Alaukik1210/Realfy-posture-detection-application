@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Realfy Posture Detection",
   description: "AI-powered posture analysis for squats and desk sitting",
+  icons: {
+    icon: "/logo.png",
+  },
 }
 
 export default function RootLayout({
